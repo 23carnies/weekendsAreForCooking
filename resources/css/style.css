@@ -1,0 +1,83 @@
+/* Temporary removal*/
+.sideBar {
+  display: none;
+}
+body {
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+/* Fonts */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Darker Grotesque", Arial Black, sans-serif;
+}
+
+p {
+  font-family: "Lora", Georgia, serif;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 1, 1, grey;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 800;
+  background-color: rgba(160, 240, 185, 1);
+}
+
+h3 {
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+h6, p {
+  font-size: 1em;
+  padding: 10px 0;
+}
+/* Fonts end here */
+
+/* Header */
+.topHeader {
+  height: 300px;
+  background-image: url(../photos/bettysBook.HEIC);
+  background-color: rgba(160, 240, 185, 1);
+  background-repeat: no-repeat;
+  background-position: -10px, 30px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.blogPost {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+article {
+  margin: 15 auto;
+  padding: 20px;
+}
+
+/* Images */
+img {
+  padding: 8px;
+}
+.leftPic {
+  float: left;
+}
+.rightPic {
+  float: right;
+}
+/* Images end here */
