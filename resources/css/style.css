@@ -95,9 +95,19 @@ img {
 .leftPic {
   float: left;
   margin: 0 15px 15px 0;
+  border-radius: 5px;
 }
 .rightPic {
   float: right;
   margin: 0 15px 15px 0;
+  border-radius: 5px;
 }
+
+#averyIsland {
+  cursor: pointer;
+  transition: 0.3s;
+}
+#averyIsland:hover {opacity: 0.7};
+/* The Modal (background) */
+
 /* Images end here */
