@@ -103,6 +103,12 @@ img {
   border-radius: 5px;
 }
 
+.rotate {
+  tranasform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
 #averyIsland {
   cursor: pointer;
   transition: 0.3s;
