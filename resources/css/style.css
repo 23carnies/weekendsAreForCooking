@@ -107,6 +107,7 @@ img {
   tranasform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
+  padding: 15px 5px 25px 5px;
 }
 
 #averyIsland {
