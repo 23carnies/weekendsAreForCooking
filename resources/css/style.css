@@ -8,12 +8,13 @@ body {
 }
 
 /* Fonts */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .commentBox p {
   font-family: "Darker Grotesque", Arial Black, sans-serif;
 }
 
 p {
   font-family: "Lora", Georgia, serif;
+  line-height: 18px;
 }
 
 h1 {
@@ -46,6 +47,10 @@ h6, p {
   font-size: 1em;
   padding: 10px 0;
 }
+
+.recipeTitle {
+  font-weight: bold;
+}
 /* Fonts end here */
 
 /* Header */
@@ -73,7 +78,7 @@ h6, p {
   flex-wrap: wrap;
 }
 .blogPost {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -107,7 +112,7 @@ img {
   tranasform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
-  padding: 15px 5px 25px 5px;
+  /*padding: 15px 5px 25px 5px;         also fix post 9 picture*/
 }
 
 #averyIsland {
@@ -117,4 +122,46 @@ img {
 #averyIsland:hover {opacity: 0.7};
 /* The Modal (background) */
 
+/* Post 10 picture box*/
+.photoBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
+  padding: 10px;
+}
+
+.photoBox img, .captionText {
+  border: 10px solid transparent;
+}
+
+
 /* Images end here */
+
+/* Comment Sections PHP
+textarea {
+  resize: none;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  background-color: green;
+  border: solid 1px black;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.commentBox {
+  max-width: 800px;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.commentBox p {
+
+}
+*/
