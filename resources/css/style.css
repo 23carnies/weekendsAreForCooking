@@ -124,17 +124,33 @@ img {
 
 /* Post 10 picture box*/
 .photoBox {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: none;
+  /*flex-flow: row wrap;
   margin: 15px;
-  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+}*/
+/*.clem {
+  flex-shrink: 2;
+}*/
+.photoBox2 {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 15px;
+  justify-content: space-between;
+}
+.captionText {
+  padding: 20px 0 0 35px;
 }
 
-.photoBox img, .captionText {
-  border: 10px solid transparent;
+.float {
+  display: flex;
+  align-items: center;
+  margin: 15px;
 }
-
+.space {
+  padding: 10px 0;
+}
 
 /* Images end here */
 
