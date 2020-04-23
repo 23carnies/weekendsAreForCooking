@@ -108,12 +108,12 @@ img {
   border-radius: 5px;
 }
 
-.rotate {
+/*.rotate {
   tranasform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   /*padding: 15px 5px 25px 5px;         also fix post 9 picture*/
-}
+}*/
 
 #averyIsland {
   cursor: pointer;
@@ -123,13 +123,13 @@ img {
 /* The Modal (background) */
 
 /* Post 10 picture box*/
+      /*when i delete this everything goes sideways even though it's not in use*/
 .photoBox {
-  display: none;
-  /*flex-flow: row wrap;
+  display: flex;
+  flex-flow: row-reverse wrap;
   margin: 15px;
   justify-content: space-around;
-  align-items: center;
-}*/
+}
 /*.clem {
   flex-shrink: 2;
 }*/
@@ -137,7 +137,7 @@ img {
   display: flex;
   flex-flow: row wrap;
   padding: 15px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .captionText {
   padding: 20px 0 0 35px;
