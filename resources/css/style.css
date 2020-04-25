@@ -1,57 +1,4 @@
-/* Temporary removal*/
-.sideBar {
-  display: none;
-}
-body {
-  margin: 0 auto;
-  font-size: 16px;
-}
-
-/* Fonts */
-h1, h2, h3, h4, h5, h6, .commentBox p {
-  font-family: "Darker Grotesque", Arial Black, sans-serif;
-}
-
-p {
-  font-family: "Lora", Georgia, serif;
-  line-height: 18px;
-}
-
-h1 {
-  font-size: 3em;
-  font-weight: 900;
-  text-align: center;
-  text-shadow: 1, 1, grey;
-}
-
-h2 {
-  font-size: 2.5em;
-  font-weight: 800;
-}
-
-article h2 {
-  background-color: rgba(160, 240, 185, .5);
-}
-
-h3 {
-  font-size: 1.6em;
-  font-weight: 700;
-}
-
-h4 {
-  font-size: 1.3em;
-  font-weight: 600;
-}
-
-h6, p {
-  font-size: 1em;
-  padding: 10px 0;
-}
-
-.recipeTitle {
-  font-weight: bold;
-}
-/* Fonts end here */
+/* Top of page */
 
 /* Header */
 .topHeader {
@@ -66,11 +13,88 @@ h6, p {
   padding-left: 35px;
   padding-top: 50px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
+}
+.introFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sideBar {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 5%;
+}
+.sideBar img {
+  border-radius: 40px;
+}
+.intro {
+  max-width: 60%;
+  padding: 3%;
+}
+.jump {
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+}
+article {
+  margin: 15px auto;
+  padding: 20px 25px;
 }
 
 
+/*Universal sytles */
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  background-color: rgba(243, 243, 243, 0.79);
+}
 
+/* Fonts */
+h1, h2, h3, h4, h5, h6, .commentBox p {
+  font-family: 'Darker Grotesque', Arial Black, sans-serif;
+}
+p {
+  font-family: 'Lora', Georgia, serif;
+  line-height: 18px;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 1, 1, grey;
+}
+h2 {
+  font-size: 2.5em;
+  font-weight: 800;
+}
+article h2 {
+  background-color: rgba(160, 240, 185, .5);
+}
+h3 {
+  font-size: 1.6em;
+  font-weight: 700;
+}
+h4 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+h6, p {
+  font-size: 1em;
+  padding: 10px 0;
+}
+.recipeTitle {
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: rgba(137, 106, 21, 1);
+  font-weight: bold;
+}
+/* Fonts end here */
+
+
+
+/* Flexbox */
 .flex {
   display: flex;
   align-items: center;
@@ -82,16 +106,8 @@ h6, p {
   margin: 0 auto;
 }
 
-.jump {
-  text-align: center;
-  text-decoration: none;
-  color: grey;
-}
 
-article {
-  margin: 15px auto;
-  padding: 20px 25px;
-}
+
 
 /* Images */
 img {
