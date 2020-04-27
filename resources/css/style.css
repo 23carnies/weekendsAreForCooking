@@ -90,8 +90,15 @@ a {
   color: rgba(137, 106, 21, 1);
   font-weight: bold;
 }
+
+.em {
+  font-style: italic;
+}
 /* Fonts end here */
 
+.recipe {
+  margin-left: 5%;
+}
 
 
 /* Flexbox */
