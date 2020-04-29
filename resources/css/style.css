@@ -112,7 +112,16 @@ a {
   max-width: 900px;
   margin: 0 auto;
 }
+/* Flex ends */
 
+/* responsive */
+@media only screen and (max-width: 600px) {
+  .topHeader {
+    height: 150px;
+    background-color: rgba(160, 240, 185, 1);
+  }
+}
+/* responsive ends here */
 
 
 
@@ -160,12 +169,14 @@ img {
 .photoBox2 {
   display: flex;
   flex-flow: row wrap;
-  padding: 15px;
+  padding: 12px;
   justify-content: space-around;
 }
 .captionText {
-  padding: 20px 0 0 35px;
+  margin-left: 25%;
+  text-shadow: 1px 1px grey;
 }
+
 
 .float {
   display: flex;
