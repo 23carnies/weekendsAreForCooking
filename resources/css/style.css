@@ -82,7 +82,7 @@ h6, p {
   font-size: 1em;
   padding: 10px 0;
 }
-.recipeTitle {
+ul li:first-child {
   font-weight: bold;
 }
 a {
@@ -91,7 +91,7 @@ a {
   font-weight: bold;
 }
 
-.em {
+.em, cite {
   font-style: italic;
 }
 /* Fonts end here */
@@ -119,10 +119,29 @@ a {
   .topHeader {
     height: 150px;
     background-color: rgba(160, 240, 185, 1);
+    background-image: none;
+  }
+  .topHeader h2 {
+    font-size: 3.5em;
+  }
+  .topHeader h3 {
+    font-size: 2.5em;
+  }
+  .sideBar {
+    width: 100%;
+  }
+  body {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 4em;
+  }
+  .leftPic, .rightPic, img, video {
+    float: none;
+    width: 100%;
   }
 }
 /* responsive ends here */
-
 
 
 /* Images */
@@ -140,22 +159,7 @@ img {
   border-radius: 5px;
 }
 
-/*.rotate {
-  tranasform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  }*/
-  /*padding: 15px 5px 25px 5px;         also fix post 9 picture*/
 
-
-#averyIsland {
-  cursor: pointer;
-  transition: 0.3s;
-}
-#averyIsland:hover {opacity: 0.7};
-/* The Modal (background) */
-
-/* Post 10 picture box*/
       /*when i delete this everything goes sideways even though it's not in use*/
 .photoBox {
   display: flex;
@@ -188,31 +192,3 @@ img {
 }
 
 /* Images end here */
-
-/* Comment Sections PHP
-textarea {
-  resize: none;
-}
-
-button {
-  width: 80px;
-  height: 30px;
-  background-color: green;
-  border: solid 1px black;
-  border-radius: 3px;
-  cursor: pointer;
-  margin-bottom: 50px;
-}
-
-.commentBox {
-  max-width: 800px;
-  background-color: #fff;
-  padding: 20px;
-  margin-bottom: 5px;
-  border-radius: 3px;
-}
-
-.commentBox p {
-
-}
-*/
