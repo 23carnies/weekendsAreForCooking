@@ -146,6 +146,7 @@ a {
 
 /* Images */
 img {
+  /* this would have to be a block element to have padding or margin */
   padding: 8px;
 }
 .leftPic {
@@ -191,4 +192,8 @@ img {
   padding: 10px 0;
 }
 
+.feastCenter {
+  display: block;
+  margin: 10px auto;
+}
 /* Images end here */
