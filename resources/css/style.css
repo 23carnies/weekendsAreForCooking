@@ -45,8 +45,9 @@ article {
 /*Universal sytles */
 body {
   margin: 0 auto;
-  font-size: 16px;
+  font-size: 20px;
   background-color: rgba(243, 243, 243, 0.79);
+  line-height: 1.3;
 }
 
 /* Fonts */
@@ -139,6 +140,24 @@ a {
   .leftPic, .rightPic, img, video {
     float: none;
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .topHeader {
+    height: 400px;
+  }
+  .topHeader h2 {
+    font-size: 3.5em;
+  }
+  .topHeader h3 {
+    font-size: 2.5em;
+  }
+  .blogPost {
+    max-width: 1200px;
+  }
+  body p {
+    line-height: 1.2em;
   }
 }
 /* responsive ends here */
